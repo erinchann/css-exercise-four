@@ -38,12 +38,14 @@ body {
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
    body {
      width: 50%;
      height: 50%;
+   }
+ }
 
-@media screen and (max-width: 918px){
+@media screen and (min-width: 918px){
    body {
     width: 25%;
     height: 25%;
